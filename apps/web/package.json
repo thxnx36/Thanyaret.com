@@ -63,7 +63,7 @@
     "rss": "^1.2.2",
     "schema-dts": "^1.1.2",
     "sharp": "^0.33.5",
-    "tailwind-merge": "^3.0.1",
+    "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7"
   },
   "browserslist": {
