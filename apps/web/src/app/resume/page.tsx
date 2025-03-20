@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function Resume() {
   return (
     <article>
-      <PageHeader header="Hugo's Resume" />
+      <PageHeader header="Thanyaret's Resume" />
       <DownloadCV />
       <TimeLine data={professionalExperiences} />
       <TimeLine data={educations} />

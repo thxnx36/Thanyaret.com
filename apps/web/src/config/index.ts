@@ -37,24 +37,24 @@ import {
 
 const config: Config = {
   avatar: "/images/profile.webp",
-  title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+  title: "Thanyaret Seangsrichan | Open Source Enthusiast",
   description:
     "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-  author: "Chun-Ho (Hugo) Lin - 1chooo",
+  author: "Thanyaret Seangsrichan",
   keywords: [
-    "Hugo ChunHo Lin",
-    "1chooo",
-    "Software Engineering",
+    "Thanyaret Seangsrichan",
+    "Thxnx36",
+    "Frontend Developer",
     "Next.js",
     "React",
   ],
   status: "Day ONE ⚡️",
-  siteURL: "https://www.1chooo.com",
+  siteURL: "",
   openGraph: {
-    url: "https://www.1chooo.com/",
-    type: "website",
-    siteName: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
-    title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+    url: "",
+    type: "",
+    siteName: "Thanyaret Seangsrichan | Open Source Enthusiast",
+    title: "Thanyaret Seangsrichan | Open Source Enthusiast",
     description:
       "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
     images: [
@@ -62,7 +62,7 @@ const config: Config = {
         url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
         width: 1200,
         height: 630,
-        alt: "Chun-Ho (Hugo) Lin - 1chooo Cover Image",
+        alt: "Thanyaret Seangsrichan Cover Image",
       },
     ],
   },
@@ -77,13 +77,13 @@ const config: Config = {
     {
       icon: LuMapPin,
       title: "Location",
-      content: "Taipei, Taiwan 🇹🇼",
+      content: "Bangkok, Thailand 🇹🇭",
     },
     {
       icon: LuMail,
       title: "Email",
-      link: "mailto:hugo970217@gmail.com",
-      content: "hugo970217@gmail.com",
+      link: "mailto:thanyaret.seangsrichan@gmail.com",
+      content: "thanyaret.seangsrichan@gmail.com",
     },
     // {
     //   icon: TbPhoneCalling,
@@ -93,8 +93,8 @@ const config: Config = {
     {
       icon: LuGithub,
       title: "GitHub",
-      link: "https://github.com/1chooo",
-      content: "1chooo",
+      link: "https://github.com/thxnx36",
+      content: "thxnx36",
     },
     // {
     //   icon: IoCalendarOutline,
@@ -104,34 +104,27 @@ const config: Config = {
     {
       icon: LuLinkedin,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/1chooo/",
-      content: "Chun-Ho (Hugo) Lin",
+      link: "https://www.linkedin.com/in/thanyaret-seangsrichan-b182a2339/",
+      content: "Thanyaret Seangsrichan",
     },
   ],
   socialLinks: [
-    { url: `https://github.com/1chooo`, icon: LuGithub, name: "GitHub" },
+    { url: `https://github.com/thxnx36`, icon: LuGithub, name: "GitHub" },
     {
-      url: `https://www.linkedin.com/in/1chooo/`,
+      url: `https://www.linkedin.com/in/thanyaret-seangsrichan-b182a2339/`,
       icon: LuLinkedin,
       name: "LinkedIn",
     },
-    {
-      url: `https://medium.com/@1chooo`,
-      icon: PiMediumLogoBold,
-      name: "Medium",
-    },
-    { url: `https://twitter.com/1chooo___`, icon: FaXTwitter, name: "Twitter" },
-    { url: `/rss.xml`, icon: LuRss, name: "RSS Feed" },
     { url: `/cv.pdf`, icon: MdAttachment, name: "CV" },
   ],
   about: {
-    firstName: "Chun-Ho",
-    lastName: "Lin",
-    middleName: "",
-    preferredName: "Hugo",
-    additionalName: "Hugo",
-    pronouns: "He/Him",
-    githubUsername: "1chooo",
+    firstName: "Thanyaret",
+    lastName: "Seangsrichan",
+    middleName: " ",
+    preferredName: " ",
+    additionalName: " ",
+    pronouns: "",
+    githubUsername: "thxnx36",
     introduction: `
 I obtained my Bachelor's degree from [National Central University 🐿️](https://www.ncu.edu.tw/), driven by a *sincere passion* for **Software Engineering 💻.**
 
@@ -300,10 +293,10 @@ In my spare time, I focus on contributing to open-source projects, alongside wor
   },
   giscusConfig: {
     id: "comments",
-    repo: "1chooo/1chooo.com",
-    repoId: process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "",
+    repo: "thxnx36/thxnx36.github.io",
+    repoId: "R_kgDOLBatdw",
     category: "General",
-    categoryId: process.env.NEXT_PUBLIC_GISCUS_CONFIG_CATEGORY_ID || "",
+    categoryId: "DIC_kwDOLBatd84CjpPs",
     mapping: "pathname",
     term: "Welcome to @giscus/react component!",
     reactionsEnabled: "1",

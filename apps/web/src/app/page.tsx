@@ -117,15 +117,13 @@ async function About() {
         <PageHeader header={header} />
       </BlurFade>
       <BlurFade inView delay={0.2}>
-        <CodeHeader id="introduction" text="$ ls -al Hugo 👨🏻‍💻 (He/Him)" />
+        <CodeHeader id="introduction" text="$ ls -al Thanyaret 👨🏻‍💻" />
         <MarkdownRenderer
           className="text-light-gray leading-relaxed"
           content={introduction}
         />
       </BlurFade>
-      <BlurFade inView delay={0.4}>
-        <LatestArticles posts={selectedPosts} />
-      </BlurFade>
+
       <BlurFade inView delay={0.6}>
         <CodingStats techStacks={techStacks} githubUsername={githubUsername} />
       </BlurFade>
