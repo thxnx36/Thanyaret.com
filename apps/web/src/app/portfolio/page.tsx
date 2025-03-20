@@ -6,7 +6,7 @@ import MarkdownRenderer from "@/components/markdown/markdown-renderer";
 import Pagination from "@/components/pagination";
 import { ProgressBarLink } from "@/components/progress-bar";
 import { getPortfolioPosts } from "@/lib/db/v1/portfolio";
-import config from "@/config";
+import config from "@/config/index";
 import { LuEye } from "react-icons/lu";
 
 const { title } = config;
